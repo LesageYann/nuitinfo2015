@@ -1,0 +1,17 @@
+{
+  "name": "rpdiv_serv",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "cookie-parser": "*",
+    "mongoose": "*",
+    "connect-mongo": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "bcryptjs" : "*"
+    "serve-favicon": "*"
+  }
+}
