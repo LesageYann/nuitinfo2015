@@ -11,7 +11,7 @@
     "connect-mongo": "*",
     "passport": "*",
     "passport-local": "*",
-    "bcryptjs" : "*"
+    "bcryptjs" : "*",
     "serve-favicon": "*"
   }
 }
