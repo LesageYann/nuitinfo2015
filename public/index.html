@@ -7,10 +7,11 @@
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	    <title>Dead?</title>
 	    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 	    <!-- Bootstrap -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/dead.css" rel="stylesheet">
-	
+	<script src="angular/forme.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,13 +26,13 @@
   </head>
   <body>
 		<div class="middle-border"></div>
-		<div ng-app="deadApp" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 left" >
+		<div  class="col-xs-6 col-sm-6 col-md-6 col-lg-6 left" >
 			<button type="button " class="btn btn-lg btn-block btn-danger">Dead?</button>
 		</div>		
-		<div ng-app="alifeApp" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 right">
+		<div  class="col-xs-6 col-sm-6 col-md-6 col-lg-6 right">
 			<button type="button" class="btn btn-lg btn-block btn-success">Alife (for now)</button>
 		</div>
-<div ng-app="formApp" ng-controller="formCtrl" ng-show="isVisible">
+<div ng-app="formapp" ng-controller="formCtrl" ng-show="isVisible">
 	<form class="form-horizontal">
   <div class="form-group">
     <label for="inputNom" class="col-sm-2 control-label">Nom</label>
@@ -63,7 +64,7 @@
     </div>
   </div>
 </form>
-<script src="angular/forme.js"></script>
+
 </div>
 
   </body>

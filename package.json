@@ -3,15 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "bcryptjs": "*",
     "body-parser": "*",
+    "connect-mongo": "*",
+    "cookie-parser": "*",
     "express": "*",
     "express-session": "*",
-    "cookie-parser": "*",
     "mongoose": "*",
-    "connect-mongo": "*",
+    "nodemailer": "^1.10.0",
+    "nodemailer-smtp-transport": "^1.0.4",
     "passport": "*",
     "passport-local": "*",
-    "bcryptjs" : "*",
     "serve-favicon": "*"
   }
 }
